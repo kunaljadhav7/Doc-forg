@@ -1,0 +1,2 @@
+# Doc-forg
+DocForgisaDocumentForgerydetectionbasedprojectwhichusesYolov8architecturetodetectDigital Forgeries  andOverwriting/ Scribling Forgeries.
