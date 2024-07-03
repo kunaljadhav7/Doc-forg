@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgery Detection Result</title>
+    <style>
+        body {
+            background-color: #caf0f8; /* Hex code for the specified color */
+            font-family: 'Playfair Display', serif;
+            text-align: center; /* Center align text */
+        }
+        h1 {
+            font-size: 30px; /* Slightly smaller font size */
+        }
+        .legend-box {
+            display: inline-block;
+            margin: 10px;
+            padding: 5px;
+        }
+        .circle {
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        .digital-forgery-circle {
+            background-color: red;
+        }
+        .overwriting-circle {
+            background-color: blue;
+        }
+        .legend-text {
+            display: inline-block;
+            vertical-align: middle;
+            font-weight: bold;
+        }
+    </style>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400&display=swap">
+</head>
+<body>
+    <h1>Forgery Detection Result</h1>
+    <div class="container">
+        <div class="result-image">
+            <img src="{{img}}" alt="Detected Forgery">
+        </div>
+        <div class="legend-box">
+            <div class="circle digital-forgery-circle"></div>
+            <div class="legend-text">Digital Forgery</div>
+        </div>
+        <div class="legend-box">
+            <div class="circle overwriting-circle"></div>
+            <div class="legend-text">Overwriting</div>
+        </div>
+    </div>
+</body>
+</html>
