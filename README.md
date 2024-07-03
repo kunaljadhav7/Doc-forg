@@ -1,2 +1,2 @@
 # Doc-forg
-DocForgisaDocumentForgerydetectionbasedprojectwhichusesYolov8architecturetodetectDigital Forgeries  andOverwriting/ Scribling Forgeries.
+DocForg is a Document Forgery detection based project which uses Yolov8 architecture to detect Digital Forgeries and Overwriting/ Scribling Forgeries.
